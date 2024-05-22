@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Fugaz+One&display=swap');
+
+/* Section Backgrounds */
+
+#home {
+    color: #fff;
+    background-image: url('./images/home.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#about {
+    color: white;
+    background-image: url('./images/about.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#skills {
+    padding: 80px 0px; 
+    color: white;
+    background-image: url('./images/skills.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#education {
+    padding: 80px 0px; 
+    color: white;
+    background-image: url('./images/education.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#hobbies {
+    padding: 80px 0px; 
+    color: #fff;
+    background-image: url('./images/hobbies.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#contact {
+    padding: 80px 0px;
+    color: #fff;
+    background-color: #000;
+}
+
+#photos {
+    padding: 80px 0px; 
+    color: #fff;
+    background-color: whitesmoke;
+    background-image: url('./images/photos.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.links {
+    color: #fff;
+}
+
+/* Home Page Start */
+
+html, body {
+    width: 100%;
+    height: fit-content;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.home-content {
+    width: 100%;
+    height: 100vh;
+}
+
+.navigation {
+    padding: 1.5% 12% 1.5% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    font-size: 25px;
+    cursor: default;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: .2s;
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro {
+    font-size: 23px;
+    text-align: justify;
+}
+
+strong {
+    font-family: 'Fugaz One', system-ui;
+    font-size: 30px;
+}
+
+.imgMe {
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px #000;
+}
+/* Home Page End */
+
+/* About Page Start */
+
+.about-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 0% 10% 0% 10%;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.aboutMe {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+/* About Page End */
+
+/* Education Page Start */
+
+.educ-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    padding: 2%;
+    margin: 40px 0px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px #fff;
+}
+
+.container-educ {
+    padding: 0% 10% 0% 10%;
+}
+
+.sub-title {
+    font-size: 40px;
+}
+
+ul {
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+/* Education Page End */
+
+/* Skills Page Start */
+
+.skills-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-skills {
+    padding: 0% 10% 0% 10%;
+}
+
+.skills-item {
+    margin: 30px 0px;
+}
+
+/* Skills Page End */
+
+/* Hobbies Page Start */
+
+.hobbies-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hobbies {
+    padding: 0% 10% 0% 10%;
+}
+
+.hobbies-item {
+    margin: 30px 0px;
+}
+
+/* Hobbies Page End */
+
+/* Photos Page Start */
+
+.gallery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.myImg {
+    width: 280px;
+    height: 100%;
+}
+
+.family {
+    width: 500px;
+    height: 100%;
+}
+
+/* Photos Page End */
+
+/* Contact Page Start */
+
+.contact-container {
+    padding: 0% 10% 0% 10%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.soc-links {
+    margin: 0px 10px;
+}
+
+/* Contact Page End */
